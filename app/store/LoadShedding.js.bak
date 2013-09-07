@@ -1,0 +1,27 @@
+Ext.define('Haamro.store.LoadShedding', {
+	extend: 'Ext.data.Store',
+
+	requires: [
+        'Ext.data.reader.Json'
+    ],
+
+	config: {
+		model: 'Haamro.model.LoadShedding',
+
+		storeId: 'loadSheddingStore',
+
+		autoLoad: true,
+
+        proxy: {
+            type: 'ajax',
+
+            url: 'resources/images/load-shedding.json',
+            
+            reader: {
+                type: 'json',
+                idProperty: 'Group',
+                rootProperty: 'RESULTS.NLS'
+            }
+        }
+	}
+});

@@ -1,0 +1,296 @@
+/*a836607b22e739c6b6a7517127bfafa414276e24*//* line 8, ../scss/skin1.scss */
+.touch-calendar-view table {
+  width: 100%;
+  border-collapse: separate;
+  table-layout: fixed;
+  background-color: #E0E0E0;
+}
+
+/* line 14, ../scss/skin1.scss */
+.touch-calendar-view table.week td {
+  vertical-align: top;
+}
+
+/* line 32, ../scss/skin1.scss */
+.touch-calendar-view table.day tr.selected td.label {
+  background-color: transparent;
+}
+/* line 43, ../scss/skin1.scss */
+.touch-calendar-view table.day tr.half-hour td.time-block {
+  border-top: 1px solid #efefef;
+}
+/* line 49, ../scss/skin1.scss */
+.touch-calendar-view table.day tr td {
+  border: none;
+  background-image: none;
+  background-color: white;
+  text-align: right;
+}
+/* line 56, ../scss/skin1.scss */
+.touch-calendar-view table.day tr td.time-block {
+  background-color: #fafafa;
+  height: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+/* line 62, ../scss/skin1.scss */
+.touch-calendar-view table.day tr td.time-block.selected {
+  background-color: #E0E0E0;
+}
+/* line 68, ../scss/skin1.scss */
+.touch-calendar-view table.day tr td .label {
+  width: 45px;
+  padding: 0 10px 0 0;
+}
+/* line 73, ../scss/skin1.scss */
+.touch-calendar-view table.day tr td .label .hour {
+  font-weight: normal;
+  color: #666;
+  font-size: 1.3em;
+}
+/* line 80, ../scss/skin1.scss */
+.touch-calendar-view table.day tr td .label .am-pm {
+  font-weight: normal;
+  color: #A5A5A5;
+  font-size: 0.6em;
+  margin-left: 4px;
+  vertical-align: super;
+}
+.touch-calendar-view thead {
+  color: #FFF;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4ca9e9), color-stop(3%, #1e93e4), color-stop(100%, #1676b9));
+  background-image: -webkit-linear-gradient(top, #4ca9e9,#1e93e4 3%,#1676b9);
+  background-image: linear-gradient(top, #4ca9e9,#1e93e4 3%,#1676b9);
+}
+/* line 97, ../scss/skin1.scss */
+.touch-calendar-view tbody td {
+  background-color: white;
+  background: none;
+  border-right: 2px solid #EDEDED;
+  border-top: 2px solid #EDEDED;
+  border-bottom: none;
+  border-left: none;
+  padding: 0 0 0 0;
+}
+/* line 108, ../scss/skin1.scss */
+.touch-calendar-view tbody td.today {
+  background: rgba(183, 201, 211, 0.8);;
+  text-shadow: none;
+}
+/* line 117, ../scss/skin1.scss */
+.touch-calendar-view tbody td.unselectable {
+  color: #EEE;
+  background-image: none;
+}
+/* line 123, ../scss/skin1.scss */
+.touch-calendar-view tbody td.selected {
+  background: none;
+  background-color: rgba(202, 209, 213, 0.8);
+  text-shadow: none;
+  color: #3F4E5E;
+}
+/* line 132, ../scss/skin1.scss */
+.touch-calendar-view tbody td.today.selected {
+  color: white;
+}
+/* line 148, ../scss/Ext.ux.TouchCalendarView.scss */
+.touch-calendar-view thead th {
+  font-size: 9px;
+  vertical-align: bottom;
+  padding-bottom: 0px;
+  color: #FFF;
+  text-shadow: rgba(0,0,0,0.5) 0 -0.08em 0;
+  text-align: center;
+  height: 46px;
+  font-weight: bold;
+  border-bottom: 1px solid #a3a7af;
+}
+/* line 160, ../scss/Ext.ux.TouchCalendarView.scss */
+.touch-calendar-view thead th:first-child {
+  background: url(../images/larr.png) center center no-repeat;
+  cursor: pointer;
+  width: 15%;
+}
+/* line 167, ../scss/Ext.ux.TouchCalendarView.scss */
+.touch-calendar-view thead th:last-child {
+  background: url(../images/rarr.png) center center no-repeat;
+  cursor: pointer;
+  width: 15%;
+}
+/* line 160, ../scss/skin1.scss */
+.touch-calendar-view thead th span {
+  font-weight: normal;
+  top: 10px;
+  color: #666;
+}
+/* line 133, ../scss/Ext.ux.TouchCalendarView.scss */
+.touch-calendar-view td.prev-month, .touch-calendar-view td.next-month {
+  color: #89909A;
+}
+/* line 138, ../scss/Ext.ux.TouchCalendarView.scss */
+.touch-calendar-view td.prev-month.selected, .touch-calendar-view td.next-month.selected {
+  color: #89909A;
+}
+/* line 133, ../scss/Ext.ux.TouchCalendarView.scss */
+.touch-calendar-view td.prev-month, .touch-calendar-view td.next-month {
+  color: #89909A;
+}
+/* line 138, ../scss/Ext.ux.TouchCalendarView.scss */
+.touch-calendar-view td.prev-month.selected, .touch-calendar-view td.next-month.selected {
+  color: #89909A;
+}
+
+/* Haamro */
+tbody.x-haamro-cal-body .x-haamro-cal-gatey { 
+  transition: all 0.1s linear;  
+}
+
+@media (min-width: 150px) {
+	.x-haamro-container {
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.4em;
+	}
+}
+
+@media (min-width: 300px) {
+  .x-haamro-calendar-day-main {
+    font-size: 275%;     
+  }
+  .x-haamro-container {
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.4em;
+	}
+}
+
+@media (min-width: 700px) {
+	.x-haamro-container {
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.5em;
+	}
+	
+  .x-haamro-calendar-day-main {
+    font-size: 365%;     
+  }
+}
+
+@media (min-width: 1000px) {
+	.x-haamro-container {
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.55em;
+	}
+	
+   .x-haamro-calendar-day-main {
+    font-size: 415%;     
+  }
+}
+
+.month-header {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  vertical-align: middle;
+}
+
+.month-header .nepali-month {
+  font-size: 2.5em;
+}
+
+.month-header .utc-month {
+  font-size: 1.5em;
+}
+
+.x-haamro-calendar-day-header {
+   display: -webkit-box; 
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+   overflow: hidden;
+   white-space: nowrap;
+   line-height: 0.6em;
+   height: 15%;
+}
+
+.x-haamro-calendar-day-footer {
+   display: -webkit-box; 
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+   height: 13%;
+}
+   
+.x-haamro-calendar-day-content { 
+	display: -webkit-box;
+	-webkit-box-orient: horizontal; 
+	height: 70%;
+}
+
+.x-haamro-calendar-day-side1 { 
+   display: -webkit-box; 
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	-webkit-box-flex: 1;
+	font-size: 0.8em;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 1px;
+}
+
+.x-haamro-calendar-day-rotate {
+	-webkit-transform: rotate(-90deg);
+  	-moz-transform: rotate(-90deg);
+  	transform: rotate(-90deg);
+}
+
+.x-haamro-calendar-day-main { 
+   display: -webkit-box; 
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	-webkit-box-flex: 8;
+}
+
+.x-haamro-calendar-day-side2 { 
+   display: -webkit-box; 
+	-webkit-box-pack:center;
+	-webkit-box-align:end;
+	-webkit-box-flex: 1;
+	color: blue;
+	padding: 1px;
+}
+
+.x-haamro-cal-days-row {
+  font-size: 0.75em;
+}
+
+.x-haamro-cal-days-cell {
+  text-align: center;
+  height: 1.5em;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6f6f7), color-stop(3%, #dcdbdf), color-stop(100%, #c2c1c7));
+  background-image: -webkit-linear-gradient(top, #f6f6f7, #dcdbdf 3%, #c2c1c7);
+  background-image: linear-gradient(top, #f6f6f7, #dcdbdf 3%, #c2c1c7);
+  color: #2B2B2B;
+  font-weight: bold;
+}
+
+.touch-calendar-view td.nepali-cal-weekend {
+  color: red;
+}
+
+.touch-calendar-view td.nepali-cal-weekend.selected {
+  color: red;
+}
+
+.nepali-cal-day-detail {
+  padding-top: 0.10em;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #2B2B2B;
+}
+
+.nepali-cal-day-detail-bg {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6f6f7), color-stop(3%, #dcdbdf), color-stop(100%, #c2c1c7));
+  background-image: -webkit-linear-gradient(top, #f6f6f7, #dcdbdf 3%, #c2c1c7);
+  background-image: linear-gradient(top, #f6f6f7, #dcdbdf 3%, #c2c1c7);
+}

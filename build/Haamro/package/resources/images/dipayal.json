@@ -1,0 +1,98 @@
+{
+    "data": {
+        "current_condition": [{
+                "cloudcover": "18",
+                "humidity": "30",
+                "observation_time": "07:13 PM",
+                "precipMM": "0.0",
+                "pressure": "1012",
+                "temp_C": "19",
+                "temp_F": "66",
+                "visibility": "10",
+                "weatherCode": "113",
+                "weatherDesc": [{
+                        "value": "Clear"
+                    }
+                ],
+                "weatherIconUrl": [{
+                        "value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
+                    }
+                ],
+                "winddir16Point": "NNE",
+                "winddirDegree": "22",
+                "windspeedKmph": "10",
+                "windspeedMiles": "6"
+            }
+        ],
+        "request": [{
+                "query": "Doti, Nepal",
+                "type": "City"
+            }
+        ],
+        "weather": [{
+                "date": "2013-04-29",
+                "precipMM": "0.0",
+                "tempMaxC": "29",
+                "tempMaxF": "85",
+                "tempMinC": "19",
+                "tempMinF": "66",
+                "weatherCode": "113",
+                "weatherDesc": [{
+                        "value": "Sunny"
+                    }
+                ],
+                "weatherIconUrl": [{
+                        "value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
+                    }
+                ],
+                "winddir16Point": "SW",
+                "winddirDegree": "215",
+                "winddirection": "SW",
+                "windspeedKmph": "16",
+                "windspeedMiles": "10"
+            }, {
+                "date": "2013-04-30",
+                "precipMM": "0.1",
+                "tempMaxC": "31",
+                "tempMaxF": "87",
+                "tempMinC": "19",
+                "tempMinF": "66",
+                "weatherCode": "113",
+                "weatherDesc": [{
+                        "value": "Sunny"
+                    }
+                ],
+                "weatherIconUrl": [{
+                        "value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
+                    }
+                ],
+                "winddir16Point": "SW",
+                "winddirDegree": "229",
+                "winddirection": "SW",
+                "windspeedKmph": "18",
+                "windspeedMiles": "11"
+            }, {
+                "date": "2013-05-01",
+                "precipMM": "0.0",
+                "tempMaxC": "30",
+                "tempMaxF": "87",
+                "tempMinC": "18",
+                "tempMinF": "65",
+                "weatherCode": "113",
+                "weatherDesc": [{
+                        "value": "Sunny"
+                    }
+                ],
+                "weatherIconUrl": [{
+                        "value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
+                    }
+                ],
+                "winddir16Point": "SW",
+                "winddirDegree": "224",
+                "winddirection": "SW",
+                "windspeedKmph": "19",
+                "windspeedMiles": "12"
+            }
+        ]
+    }
+}

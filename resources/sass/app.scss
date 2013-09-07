@@ -1,0 +1,23 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+@include icon-font('HaamroPictos', inline-font-files(
+  'haamro-pictos/haamro-pictos.woff', woff, 
+  'haamro-pictos/haamro-pictos.ttf', truetype,
+  'haamro-pictos/haamro-pictos.svg', svg
+));
+ 
+@include icon("loadshedding"  , "\e002");
+@include icon("stocks", "\e001");
+@include icon("paatro"  , "\e005");
+@include icon('home', null, 'Pictos');
+@include icon('star', null, 'Pictos');
+@include icon('info', null, 'Pictos');
+@include icon('arrow_down', null, 'Pictos');
+
+// Examples of using the icon mixin:
+// @include icon('user');
