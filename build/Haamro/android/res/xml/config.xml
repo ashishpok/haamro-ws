@@ -37,8 +37,11 @@
     <preference name="exit-on-suspend" value="false" />
 <plugins>
     <plugin name="App" value="org.apache.cordova.App"/>
-    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker"/>
     <plugin name="Device" value="org.apache.cordova.Device"/>
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser"/>
+    <plugin name="ChildBrowser" value="com.phonegap.plugins.childBrowser.ChildBrowser" />
+    <!-- 
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker"/>
     <plugin name="Accelerometer" value="org.apache.cordova.AccelListener"/>
     <plugin name="Compass" value="org.apache.cordova.CompassListener"/>
     <plugin name="Media" value="org.apache.cordova.AudioHandler"/>
@@ -54,7 +57,7 @@
     <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
     <plugin name="Echo" value="org.apache.cordova.Echo" />
     <plugin name="Globalization" value="org.apache.cordova.Globalization"/>
-    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser"/>
+     -->
 </plugins>
 </cordova>
 

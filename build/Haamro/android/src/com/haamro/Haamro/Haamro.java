@@ -17,10 +17,15 @@
        under the License.
  */
 
-package com.android.Haamro;
+package com.haamro.Haamro;
 
+import org.apache.cordova.Config;
+import org.apache.cordova.DroidGap;
+
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import org.apache.cordova.*;
+
+import com.android.Haamro.R;
 
 public class Haamro extends DroidGap
 {
@@ -31,6 +36,11 @@ public class Haamro extends DroidGap
         // Set by <content src="index.html" /> in config.xml
         super.loadUrl(Config.getStartUrl());
         //super.loadUrl("file:///android_asset/www/index.html")
+        
+        // lock orientation for phones
+        if (!getResources().getBoolean(R.bool.isTablet)) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        }
     }
 }
 
